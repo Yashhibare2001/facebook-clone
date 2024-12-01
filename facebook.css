@@ -16,12 +16,12 @@ body {
     top: 0;
     width: 100%;
     height: 60px;
-    background: rgb(119, 101, 226);
+    background:  #f2f4f7;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
-
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.1),10px 10px 15px rgb(0,0,0,0.1);
 }
 
 .title .count {
@@ -39,42 +39,16 @@ body {
     list-style: none;
     position: fixed;
     gap: 20px;
+    bottom: 20px;
 
 }
 
-.nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    text-decoration: none;
-    color: rgb(251, 243, 243);
-    transition: color 0.3s;
-    margin-left: 900px;
-}
-
-.nav ul li {
-    padding: 0 0 0 30px;
-}
-
-.nav ul li a {
-    text-decoration: none;
-    color: rgb(19, 18, 18);
-    transition: color 0.3s;
-    margin-left: 50px;
-    list-style: none;
-    display: flex;
-    padding: 6px 0 0 2px;
-}
-
-.nav ul li a:hover {
-    color: red;
-}
 
 .bike {
     width: 30px;
     height: 30px;
     border-radius: 30%;
-    left: 940px;
+    left: 1400px;
     position: absolute;
     top: 1px;
 }
@@ -83,7 +57,7 @@ body {
     width: 30px;
     height: 30px;
     position:absolute;
-    left: 1050px;
+    left: 1250px;
     border-radius: 30%;
     
 }
@@ -97,7 +71,64 @@ body {
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 1400px;
+    left: 1350px;
+    border-radius: 30%;
+}
+
+.alarm {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 1300px;
+    border-radius: 30%; 
+}
+
+.home {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 350px;
+    border-radius: 30%;
+}
+
+.tv {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 720px;
+    border-radius: 30%;  
+}
+
+.dost {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 520px;
+    border-radius: 30%;  
+}
+
+.logout {
+    width: 20px;
+    height: 20px;
+    top: 7px;
+    position: absolute;
+    left: 1440px;
+    border-radius: 30%; 
+}
+
+.store {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 900px;
+    border-radius: 30%;
+}
+
+.fri {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 1050px;
     border-radius: 30%;
 }
 
@@ -107,27 +138,32 @@ body {
     color: black;
 }
 
+
+/*---- .divlogin---- */
+
+
 .divlogin {
     
-    background: rgb(157, 142, 241);
-    width: 25%;
+    background:  #f2f4f7;
+    width: 60%;
     margin-top: 70px;
     height: 700px;
     margin-left: 5px;
+
 }
 
 .divlogin ul li  {
     list-style: none;
     transition: color 0.3s;
-    color: chartreuse;
+    color: rgb(21, 24, 18);
     text-decoration: none;
-    margin: 20px 0 0 20px;
+    margin: 40px 0 0 20px;
 }
 
 .divlogin ul li a {
      list-style: none;
      transition: color 0.3s;
-     color: chartreuse;
+     color: rgb(11, 17, 5);
      text-decoration: none;
      margin: 2000px 0 0 60px;
 }
@@ -155,50 +191,208 @@ body {
 h1 {
     margin: 0 0 0 10px;
 }
+  
+
+/* ----.divlogin2---- */
+
 
 .divlogin2 {
-    /* background-color: rgb(14, 14, 16); */
-    width: 100%;
-    margin-top: 70px;
-    margin-left: 10px;
-    height: 200px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0PX;
+    height: 100px;
     display: block;
 }
+
+.div {
+    display: block;
+}
+
+.divsearch {
+    display: inline flex;
+    margin: 50px 0 50px 20px;
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+ }
+ 
+ .divpart {
+     background-color: #f2f4f7;
+     margin-left: 15px;
+     box-shadow: 0 0 20px 0 rgb(0,0,0,0.1),10px 10px 15px rgb(0,0,0,0.1);
+ }
+ 
+ .divsearch button {
+     display: block;
+ }
+
 .FULLSTACKGURU {
-    width: 1100px;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
 }
 
 .divlogin3 {
-    background-color: rgb(241, 228, 229);
-    width: 360px;
+    background-color:  #f2f4f7;
+    width: 60%;
     margin-top: 70px;
     margin-left: 20px;
     margin-right: 10px;
     height: 700px;
-   
+    color: black;
 }
 
-/* .content {
-    display: flex;
-} */
+h2 {
+  right: 50px;  
+}
+
+
+/* ----.divlogin4 ---- */
 
 .divlogin4 {
-    background-color: rgb(183, 183, 242);
-    width: 100%;
-    height: 30px;
-    display: block;
+    background-color: #f2f4f7;
+    width: 750px;
+    margin: 100px 0 0 12px;
+    height: 100px;
+    display: flex;
+    color: black;
     margin-top: 10px;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.1),10px 10px 15px rgb(0,0,0,0.1);
 }
 
-/* .divlogin5 {
-    background-color: chartreuse;
-    width: 200px;
-    height: 200px;
-    
-    margin-top: 220px;
-    
-} */
+h2 {
+     margin: 25px -80px 0 0px;
+}
 
+p {
+    margin: 50px 0px 0 12px;
+    color: dimgray;
+}
+
+.create {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.createimg {
+    height: 50px;
+    width: 50px;
+}
+
+/* ---divlogin5---- */
+
+
+.divlogin5 {
+    background-color:   #f2f4f7;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 0PX;
+    height: 550px;
+    display: block;
+    border: -1px solid grey;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.1),10px 10px 15px rgb(0,0,0,0.1);
+}
+
+.class {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.content {
+    color: black;
+    display: flex;
+}
+
+#name {
+    margin: 10px 0 0 10px;
+}
+
+.avengers img{
+    width: 700px;
+    height: 400px;
+    margin: 50px 0 0 25px;
+}
+
+.lsk {
+    display: flex;
+}
+
+
+
+/* divlogin6 */
+
+.divlogin6 {
+    background-color:   #f2f4f7;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 0PX;
+    height: 550px;
+    display: block;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.1),10px 10px 15px rgb(0,0,0,0.1);
+    
+}
+
+.class {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.content {
+    color: black;
+    display: flex;
+}
+
+#name {
+    margin: 10px 0 0 10px;
+}
+
+.avengers img{
+    width: 700px;
+    height: 400px;
+    margin: 50px 0 0 25px;
+}
+
+.lsk {
+    display: flex;
+}
+
+/* <!--ss--> */
 .display {
     display: flex;
+}
+
+.leftfriendicon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: -5px 1450px 0 0;
+    border-radius: 30%;
+    
+}
+
+.searchbar {
+    margin-right: 1190px;
+    width: 200px;
+    height: 25px;
+    border: 1px grey;
+    border-radius: 50px;
+}
+
+
+.lay {
+    width: 30px;
+    height: 30px;
+    margin: 0 100px;
 }

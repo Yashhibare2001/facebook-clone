@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(222, 220, 224);
+}
+
+.jar {
+    margin: 100px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftpart {
+    width: 40%;
+    margin-right: 70%;
+}
+
+h1 {
+    color: royalblue;
+    font-size: 80px;
+}
+
+.rightpart {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    width: 450px;
+    height: 370px;
+    box-shadow: 10px 10px 15px rgb(0,0,0,0.1);
+    border-radius: 10px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 0 0;
+}
+
+input {
+
+    width: 380px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+p {
+    color: rgb(118, 18, 18);
+}
