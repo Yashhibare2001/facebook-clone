@@ -206,7 +206,7 @@ h1 {
 }
 
 .div {
-    display: block;
+    display: flex;
 }
 
 .divsearch {
@@ -234,6 +234,17 @@ h1 {
     margin-left: 10px;
     border-radius: 50%;
 }
+
+#cammera {
+     display: block;
+     margin: 150px 100px 10px 50px;
+     right: 50px;
+     border: none;
+}
+
+
+/* --divlogin2-- */
+
 
 .divlogin3 {
     background-color:  #f2f4f7;
@@ -396,3 +407,4 @@ p {
     height: 30px;
     margin: 0 100px;
 }
+
